@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <h1>Ajouter un nouveau profil étudiant</h1>
+
+   
+
+    <form method="post">
+        <label for="prenom">Prénom:</label>
+        <input type="text" name="prenom" required><br>
+
+        <label for="nom">Nom:</label>
+        <input type="text" name="nom">
+
+        <label for="nom">email:</label>
+        <input type="email" name="email">
+
+
+        <label for="cv">CV:</label>
+        <textarea name="cv" rows="4"></textarea><br>
+
+        <label for="dt_naissance">Date de Naissance:</label>
+        <input type="date" name="dt_naissance" required><br>
+
+        <label for="isAdmin">isAdmin:</label>
+        <input type="checkbox" name="isAdmin"><br>
+
+        <input type="submit" value="Ajouter">
+    </form>
+
+</body>
+
+</html>
